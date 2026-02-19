@@ -31,11 +31,13 @@
      git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/GenAI-Beginners-Toolkit.git
   
   2. **Create a Virtual Environment (Optional but Recommended):**
-     python -m venv venv
-     source venv/bin/activate  # On Windows use: venv\Scripts\activate
+     
+         python -m venv venv
+         source venv/bin/activate  # On Windows use: venv\Scripts\activate
   
-  3. **Install Dependencies:**
-     pip install transformers torch
+  4. **Install Dependencies:**
+     
+         pip install transformers torch
 
 ## 5. Usage Examples (Tutorials)
   The primary tool in this kit is the Story Generator.
@@ -57,7 +59,7 @@
     print(result[0]['generated_text'])
 
 ## 7. Common Issues & Fixes
-    ***Issue***, ***Cause***, ***Fix***
+  ***Issue***, ***Cause***, ***Fix***
   - **ModuleNotFoundError  - **Libraries not installed  - **Run pip install transformers torch again.
   - **Slow Generation  - **CPU limitation  - **"If running locally on an old PC, try using Google Colab for faster speeds."
   - **Nonsense Output  - **Model Limitations  - **"GPT-2 is an older model. For better quality, try changing the model to gpt2-medium."
